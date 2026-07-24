@@ -19,7 +19,7 @@ The analysis was designed to answer key business questions including:
 
 ## Dashboard Preview
 
-![Coffee Sales Dashboard](images/coffee-sales-dashboard.png)
+![Coffee Sales Dashboard](images/Coffee-Sales-Dashboard.png)
 
 ## Dataset
 
