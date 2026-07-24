@@ -159,5 +159,3 @@ Key features used:
 ## Author
 
 **Aisosa Elizabeth Erhunmwunsee**
-
-Data Analytics Portfolio
