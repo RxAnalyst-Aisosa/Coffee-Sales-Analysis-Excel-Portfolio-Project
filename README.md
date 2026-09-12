@@ -98,6 +98,12 @@ The final dashboard brings these views together and allows the data to be explor
 | Top 5 Customers | Highest-value customer analysis |
 | Dashboard | Final interactive dashboard |
 
+## Portfolio Journey
+
+**[Stage 1 — Healthcare Patient Risk Analysis](https://github.com/RxAnalyst-Aisosa/Healthcare-Patient-Risk-Analysis-Dashboard)**  
+→ **Stage 2 — Technical Development:** this project  
+→ **[Stage 3 — Excel Sales Analysis Dashboard](https://github.com/RxAnalyst-Aisosa/Excel-Sales-Analysis-Dashboard)**
+
 ## Portfolio Progression
 
 Compared with my first healthcare dashboard, this project required more structured data preparation and stronger use of Excel formulas across multiple source tables.
