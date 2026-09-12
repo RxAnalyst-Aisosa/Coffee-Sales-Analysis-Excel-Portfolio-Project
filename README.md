@@ -1,161 +1,112 @@
 # Coffee Sales Analysis Dashboard | Microsoft Excel
 
-## Project Overview
+> **Portfolio Stage 2 — Technical Development | Multi-table Analysis | Excel Functions | Dashboarding**
 
-This project analyses coffee sales data using Microsoft Excel to identify sales trends, customer purchasing patterns, product performance, and geographic performance.
-
-The project demonstrates an end-to-end Excel analytics workflow, including data preparation, lookup functions, PivotTables, PivotCharts, filtering, and interactive dashboard development.
-
-## Project Objectives
-
-The analysis was designed to answer key business questions including:
-
-* How have coffee sales changed over time?
-* Which coffee types generate the most sales?
-* Which countries contribute the most revenue?
-* Who are the highest-value customers?
-* How do roast type, coffee size, and loyalty status affect sales?
-* How can sales performance be presented in an interactive dashboard for decision-making?
-
-## Dashboard Preview
+This project represents the next stage in my data analytics development. After building my first healthcare dashboard, I wanted to strengthen the technical side of my Excel work by combining data from multiple tables, using lookup functions, and analysing commercial sales performance.
 
 ![Coffee Sales Dashboard](images/Coffee-Sales-Dashboard.png)
 
-## Dataset
+## Project Overview
 
-The workbook contains three primary source tables:
+The analysis brings together order, customer and product data to explore sales performance, customer value, product demand and geographic trends.
 
-* **Orders** – individual customer orders and quantities
-* **Customers** – customer information, location, and loyalty status
-* **Products** – coffee type, roast type, size, unit price, and profit information
+The project contains approximately **1,000 order records** across three source tables:
 
-The project contains approximately **1,000 order records**.
+- **Orders** — transaction-level order information
+- **Customers** — customer details, location and loyalty status
+- **Products** — coffee type, roast type, size, pricing and product information
 
-> The dataset is used for portfolio and educational analysis.
+## Business Questions
+
+- How have coffee sales changed over time?
+- Which coffee types generate the most sales?
+- Which countries contribute the most revenue?
+- Who are the highest-value customers?
+- How do roast type, coffee size and loyalty status affect performance?
+- How can these findings be presented in an interactive dashboard?
+
+## Headline Findings
+
+- Total analysed sales were approximately **£45.1K**.
+- The **United States** generated the largest share of sales in the dataset.
+- Customer-level aggregation made it possible to identify the highest-value customers.
+- Monthly and yearly analysis highlighted changes in demand across Arabica, Excelsa, Liberica and Robusta.
 
 ## Data Preparation
 
-The original order data was enriched by combining information from the customer and product tables.
+A major focus of this project was combining information stored across separate tables.
 
-Excel functions used during the preparation process included:
+I used:
 
-* `XLOOKUP`
-* `INDEX`
-* `MATCH`
-* `IF`
+- `XLOOKUP`
+- `INDEX`
+- `MATCH`
+- `IF`
 
-These functions were used to retrieve customer and product attributes and create a consolidated analytical dataset.
+These functions were used to retrieve customer and product attributes and build a consolidated **Clean orders** table for analysis.
 
-The resulting **Clean orders** table contains information including:
+The prepared table includes fields such as:
 
-* Order ID
-* Order Date
-* Customer ID
-* Product ID
-* Quantity
-* Customer Name
-* Email
-* Country
-* Coffee Type
-* Roast Type
-* Size
-* Unit Price
-* Sales
+- Order ID and Order Date
+- Customer and Product IDs
+- Quantity
+- Customer Name and Country
+- Coffee Type and Roast Type
+- Size and Unit Price
+- Sales
 
-## Analysis
+## Analysis & Dashboard
 
-PivotTables were created to investigate several areas of business performance.
+PivotTables and PivotCharts were used to analyse:
 
-### Sales Over Time
+- sales over time
+- sales by country
+- coffee-type performance
+- top customers
 
-Monthly and yearly sales were analysed for the four coffee varieties:
+The final dashboard brings these views together and allows the data to be explored using interactive filters and slicers.
 
-* Arabica
-* Excelsa
-* Liberica
-* Robusta
+## Skills Demonstrated
 
-This allows sales patterns and changes in product demand to be compared over time.
-
-### Sales by Country
-
-Sales were analysed across:
-
-* United States
-* Ireland
-* United Kingdom
-
-The United States generated the largest share of sales in the dataset.
-
-Total analysed sales were approximately **£45.1K**.
-
-### Top Customers
-
-Customer-level sales were aggregated to identify the highest-value customers.
-
-This analysis helps demonstrate how transactional data can be used for customer segmentation and retention-focused decision-making.
-
-## Dashboard
-
-An interactive Excel dashboard was developed to bring the main analyses together in one reporting interface.
-
-The dashboard includes:
-
-* Sales trends over time
-* Sales by country
-* Top customers
-* Coffee-type analysis
-* Interactive filters and slicers
-
-The dashboard allows users to explore the data without working directly with the underlying tables.
-
-## Excel Skills Demonstrated
-
-This project demonstrates practical use of:
-
-* Data cleaning
-* Data preparation
-* Excel Tables
-* XLOOKUP
-* INDEX and MATCH
-* IF statements
-* PivotTables
-* PivotCharts
-* Sorting and filtering
-* Slicers
-* Sales analysis
-* Customer analysis
-* Dashboard design
-* Business data visualisation
+- Microsoft Excel
+- Multi-table data preparation
+- XLOOKUP
+- INDEX and MATCH
+- IF statements
+- Excel Tables
+- PivotTables
+- PivotCharts
+- Sorting and filtering
+- Slicers
+- Customer analysis
+- Product analysis
+- Sales analysis
+- Dashboard design
+- Business data visualisation
 
 ## Workbook Structure
 
-| Worksheet         | Purpose                            |
-| ----------------- | ---------------------------------- |
-| orders            | Original order-level data          |
-| customers         | Customer reference data            |
-| products          | Product and pricing information    |
-| Clean orders      | Prepared dataset used for analysis |
-| Documentation     | Project documentation              |
-| Total Sales       | Sales trend PivotTable             |
-| Country Bar Chart | Country-level sales analysis       |
-| Top 5 Customers   | Highest-value customer analysis    |
-| Dashboard         | Final interactive Excel dashboard  |
+| Worksheet | Purpose |
+|---|---|
+| orders | Original order-level data |
+| customers | Customer reference data |
+| products | Product and pricing information |
+| Clean orders | Prepared analytical dataset |
+| Documentation | Project documentation |
+| Total Sales | Sales trend PivotTable |
+| Country Bar Chart | Country-level analysis |
+| Top 5 Customers | Highest-value customer analysis |
+| Dashboard | Final interactive dashboard |
 
-## Key Learning
+## Portfolio Progression
 
-This project strengthened my ability to take data stored across multiple tables, combine and prepare it for analysis, investigate business questions using PivotTables, and communicate findings through an interactive Excel dashboard.
+Compared with my first healthcare dashboard, this project required more structured data preparation and stronger use of Excel formulas across multiple source tables.
 
-It forms part of my practical data analytics portfolio and demonstrates how Microsoft Excel can be used to transform raw transactional data into useful business insights.
+It reflects an important step in my development from basic dashboard creation toward a more complete analytical workflow involving data integration, business questions and customer/product-level analysis.
 
-## Tools
+My next project builds further on this by placing greater emphasis on KPI design, executive-style reporting and professional project documentation.
 
-**Microsoft Excel**
+---
 
-Key features used:
-
-`XLOOKUP` | `INDEX-MATCH` | `PivotTables` | `PivotCharts` | `Slicers` | `Excel Tables` | `Dashboarding`
-
-## Author
-
-**Aisosa Elizabeth Erhunmwunsee**
+**Aisosa Elizabeth Erhunmwunsee**  
+*Pharmacy | Business Analytics | Data Analysis | Business Intelligence*
